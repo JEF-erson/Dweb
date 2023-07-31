@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="imagenes/LOOGO.png" />
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <div class="encabezado">
+    <h1 id="texto-encabezado" contenteditable="FALSE">REVISTA INFORMATICA  <img src="imagenes/LOOGO.png" alt="" srcset="" width="50"></h1>
+  </div>
+
+
+  
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="Musica.html">MUSICA ACTUAL</a></li>
+      <li><a href="JUEGOS.html">VIDEO JUEGOS</a></li>
+      <li><a href="autoresmusicales.html">ARTISTAS MUSICALES</a></li>
+      <li><a href="contacto.html">Contacto</a></li> 
+    </ul>
+  </nav>
+  <div class="contenedor">
+    <div class="izquierda">Resumen del mes de Julio (VideoJuegos)
+        <ol>Los juegos más esperados de 2023: The Legend of Zelda, 
+            Hogwarts Legacy, Starfield, Final Fantasy y todos los bombazos del año.
+             Quédate con estas palabras: 2023 es un año para enmarcar</ol>
+       <div id="container">
+         <img id="slide-image" src="imagenes/JUEGO1.jpg" alt="Imagen 1">
+         <img id="overlay-image" src="imagenes/JUEGO2.jpg" alt="Imagen 2">
+         <script>// Espera a que el documento se cargue completamente
+         document.addEventListener("DOMContentLoaded", function() {
+           // Obtiene las referencias a las imágenes
+           var slideImage = document.getElementById("slide-image");
+           var overlayImage = document.getElementById("overlay-image");
+           
+           // Añade un evento click al contenedor
+           document.getElementById("container").addEventListener("click", function() {
+             // Desliza la imagen fuera de la vista
+             slideImage.style.transform = "translateX(-100%)";
+             
+             // Desliza la imagen de superposición hacia adentro
+             overlayImage.style.transform = "translateX(0)";
+           });
+         });
+         </script>
+       </div>
+       
+       
+    </div>
+    <div class="centro">Lo mas escuchado del mes (spotify)
+        <OL>
+            Playlist
+            ¡Lo + esuchado del momento! Los éxitos 2023 de reggaeton hits, trap (latino, español y argentino),
+             música latina en general y los hits más destacados. 
+            Feat. Copa Vacia - Shakira, Manuel Turizo | Como Yo : - Tiago PZK, 
+            infaltable la discografica disciple con sus nuevos EP de varios artisas</OL>
+            <iframe width="430" height="315" src="https://www.youtube.com/embed/cMs5KLephqA" frameborder="0" allowfullscreen></iframe>
+            
+
+    </div>
+    <div class="derecha">Que paso de ellos? (edicion Daft Punk)
+             
+        <ol>La banda se separó en 2021 después de 25 años de carrera.
+            Esto acaba de cambiar, ya que Thomas Bangalter -uno de los dos cofundadores- finalmente rompió el silencio y h
+            abló por primera vez sobre la separación del grupo en una reciente entrevista con la BBC.</ol>
+            <img id="img1" src="imagenes/descarga.jpeg" width="500">
+           
+            
+    </div>
+   
+  </div>
+</body>
+<footer>
+  <div class="banner">
+    <img src="imagenes/BANNER.png" alt="Banner" width="500">
+  </div>
+  <div class="creditos">
+    <p>Desarrollado por <span class="autor">JEFERSON QUISPE</span></p>
+  </div>
+</footer>
+
+</html>

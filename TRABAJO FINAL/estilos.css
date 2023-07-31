@@ -1,0 +1,84 @@
+nav {
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  padding: 10px; /* Espacio interno para los elementos de navegación */
+}
+
+nav ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Muestra los elementos en línea */
+}
+
+nav ul li {
+  margin-right: 10px; /* Espacio entre elementos de navegación */
+}
+
+nav ul li a {
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  padding: 5px; /* Espacio interno para los enlaces */
+}
+.encabezado {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .contenedor {
+    display: flex; /* Establece el contenedor principal como flexbox */
+    justify-content: space-between; /* Distribuye los elementos secundarios horizontalmente */
+  }
+  
+  .izquierda, .centro, .derecha {
+    width: 30%; /* Define el ancho de los elementos secundarios */
+  }
+  
+  /* Estilos adicionales opcionales para personalizar la apariencia */
+  .izquierda {
+    background-color: #f1f1f1;
+  }
+  
+  .centro {
+    background-color: #e1e1e1;
+  }
+  
+  .derecha {
+    background-color: #d1d1d1;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+  }#slider-container {
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+  
+  #container {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+  }
+  
+  #slide-image,
+  #overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s;
+  }
+  
+  #overlay-image {
+    transform: translateX(100%);
+  }
+
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
